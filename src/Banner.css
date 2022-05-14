@@ -1,0 +1,18 @@
+body {
+    font-family: cursive;
+}
+#banner{
+    border: 0.1px solid white;
+}
+.heading{
+    width: fit-content;
+    border-right: 3px solid black;
+    margin:130px auto 0px;
+    font-size: large;
+    font-weight: bold;
+}
+.para{
+    width: 80%;
+    margin: 100px auto ;
+    font-size: medium;
+}

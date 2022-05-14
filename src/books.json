@@ -1,0 +1,60 @@
+{
+    "books": [
+        {
+            "id": "1",
+            "name": "C++",
+            "dollar": "15",
+            "src": "c++.jpg",
+            "star":"empty star.PNG",
+            "disc":"C++ was introduce as successor of C.It also introduce the concept of classes"
+        },
+        {
+            "id": "2",
+            "name": "Java",
+            "dollar": "12",
+            "src": "java.jpg",
+            "star": "half star.PNG",
+            "disc":"Java is high level,class based,object oriented pragramming language."
+        },
+        {
+            "id": "3",
+            "name": "HTML",
+            "dollar": "10",
+            "src": "html.jpg",
+            "star":"empty star.PNG",
+            "disc":"HyperText Markup Language is standred markup language."
+        },
+        {
+            "id": "4",
+            "name": "Java script",
+            "dollar": "25",
+            "src": "js.PNG",
+            "star": "empty star.PNG",
+            "disc":"JS is a programming langage that is core technologies of the World Wide Web."
+        },
+        {
+            "id":"5",
+            "name": "Python",
+            "dollar": "20",
+            "src": "python.PNG",
+            "star": "half star.PNG",
+            "disc":"Python is high-level general purpose programming langage."
+        },
+        {
+            "id":"6",
+            "name": "CSS",
+            "dollar": "35",
+            "src": "css.PNG",
+            "star": "half star.PNG",
+            "disc":"CSS stands for Cascading Style Sheets used for styling purpose"
+        },
+        {
+            "id":"7",
+            "name": "C#",
+            "dollar": "27",
+            "src": "C.PNG",
+            "star": "empty star.PNG",
+            "disc":"The C# language is used for many kind of applications including websites."
+        }
+    ]
+}

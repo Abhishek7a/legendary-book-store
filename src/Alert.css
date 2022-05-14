@@ -1,0 +1,39 @@
+.message {
+  position: sticky;
+  z-index: 1;
+  top: 60px;
+  display: flex;
+  font-size: x-large;
+}
+#Message {
+  align-items: center;
+  margin-left: 9px;
+}
+#yellow {
+  background-color: rgb(217, 255, 0);
+}
+#green {
+  background-color: rgb(31, 255, 31);
+}
+#red {
+  background-color: #f40404;
+}
+.btnOk{
+  background-color: rgb(31, 255, 31);
+  color: white;
+  cursor: pointer;
+  border: none;
+  height: 50px;
+  margin: 15px 0px 5px;
+}
+.paddingAlert{
+  margin: auto;
+}
+.btnCancle{
+  height: 50px;
+  margin: 15px 5px 5px;
+  background-color: red;
+  border: 3px solid red ;
+  cursor: pointer;
+  color: white;
+}

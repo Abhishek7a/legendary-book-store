@@ -1,0 +1,100 @@
+#navigationBar {
+  display: flex;
+  width: 100%;
+  z-index: 2;
+  position: fixed;
+  font-weight: lighter;
+  background-color: black;
+}
+.nav {
+  cursor: pointer;
+  margin: 10px 0px 0px 40px;
+  font-size: 25px;
+}
+.middleNav{
+  display: flex;
+}
+.middleNavHide{
+  display: flex;
+}
+.search {
+  padding: 0px 10px;
+  width:175px;
+  float: right;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px 0px 0px 20px;
+  outline: none;
+}
+.navbarItem {
+  text-decoration: none;
+  color: white;
+}
+.navbarItem:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: bolder;
+  background-color: white;
+  border-radius: 20px;
+  padding: 3px;
+  height: 40px;
+}
+#nav1 {
+  border-bottom: 3px solid white;
+  margin-bottom: 5px;
+}
+#logo {
+  width: 56px;
+  border: 2px solid white;
+  clip-path: circle(47% at 50% 50%);
+}
+.btn {
+  height: 32px;
+  float: right;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 1%;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.9s ease-in-out;
+  border: 2px solid white;
+}
+#scearchImg {
+  border-radius: 0px 20px 20px 0px;
+  padding: 3px;
+  color: black;
+  margin: 1px 20px 0px 0px;
+  width: 22px;
+  float: right;
+  background-color: white;
+}
+#serch {
+  width: 100%;
+  align-self: center;
+}
+.load {
+  background-color: orangered;
+  height: 3px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  animation: load 1s 1 forwards;
+}
+.unload {
+  width: 0%;
+  height: 3px;
+}
+
+@keyframes load {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 90%;
+  }
+  100% {
+    width: 100%;
+  }
+}

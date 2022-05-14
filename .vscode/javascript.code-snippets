@@ -1,0 +1,16 @@
+{
+	"boilerplate": {
+		"prefix":"mongoose boilerplate code",
+		"scope": "javascript",
+		"body": [
+			"const mongoose=require('mongoose');",
+			"const mongoURL='$0'",
+			"",
+			"const connectToMongo=()=>{",
+    		"mongoose.connect(mongoURL,()=>{})",
+    		"console.log('Connect to mongoose');",
+			"}"
+		],
+		"description": "boilerplate of mongoose"
+	}
+}

@@ -1,0 +1,32 @@
+body {
+    font-family: cursive;
+}
+.center{
+    width: 90%;
+    margin: 10px auto;
+    border-top: 3px solid black;
+    padding: 5px;
+    border-bottom: 3px solid black;
+}
+.centerB{
+    width: 30%;
+    border-top: 3px solid black;
+    padding: 10px 14px;
+    text-align: center;
+
+}
+tr:nth-child(odd){
+    background-color: #d0d0d0;
+}
+th{
+    padding-bottom: 10px;
+}
+.svg{
+    width: 17px;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 25%;
+}
+.green{
+    color: green;
+}

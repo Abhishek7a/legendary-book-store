@@ -1,0 +1,39 @@
+.editForm {
+  background-color: #d0d0d0;
+  box-shadow: 0 0 20px 10px rgb(0, 0, 0, 50%);
+  z-index: 1;
+  position: fixed;
+  display: table;
+  text-align: center;
+  top: 30%;
+  width: -webkit-fill-available;
+  margin: 0% 20%;
+  border: 3px solid black;
+}
+.titleForm{
+  background-color: black;
+  color: white;
+  margin: -1px;
+  padding: 2%;
+  font-size: 125%;
+}
+.formBtn{
+    width: -webkit-fill-available;
+    border: 3px solid black;
+    display: inline;
+    cursor: pointer;
+    padding: 1%;
+    margin: 2% 5%;
+  }
+  .edit {
+    margin: auto;
+    background: none;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 3%;
+  }
+  .cancleBtn{
+  cursor: pointer;
+  
+}

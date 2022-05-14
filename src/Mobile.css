@@ -1,0 +1,181 @@
+@media only screen and (max-width: 800px) {
+  .middleNav {
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    text-align: center;
+    background-color: black;
+  }
+
+  .card {
+    font-size: small;
+  }
+
+  .middleNavHide {
+    display: none;
+  }
+
+  #nav1 {
+    border-top: 3px solid white;
+  }
+
+  #logo {
+    margin-left: 30%;
+  }
+
+  #serch {
+    width: 45%;
+  }
+
+  .logoBorder {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #menu {
+    border: 4px solid white;
+    min-width: 50px;
+    height: 36px;
+    margin-top: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 22px;
+  }
+
+  .line {
+    border-bottom: 3px solid white;
+    padding: 3.3px 0px;
+    margin: 0px 4px;
+  }
+
+  .nav {
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imgBorder {
+    padding: 10px;
+    margin: 20px auto;
+  }
+
+  .scearh {
+    display: none;
+  }
+
+  .search {
+    padding: 0px 10px;
+    width: 150px;
+    float: right;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    outline: none;
+  }
+
+  .grid {
+    grid-template-columns: 0fr 2fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .logo {
+    margin-left: 30%;
+    height: 3em;
+  }
+
+  .title1 {
+    width: 200px;
+  }
+
+  #Message {
+    font-size: 80%;
+  }
+
+  .mainSide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .nameSide {
+    display: grid;
+  }
+
+  #booksContainer {
+    flex-direction: column;
+  }
+
+  .bookName {
+    margin-top: 30px;
+  }
+
+  .special {
+    width: 12em;
+  }
+
+  #form {
+    width: 15em;
+  }
+
+  #paymentMethod {
+    flex-direction: column;
+  }
+
+  .logo {
+    height: 2em;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .centerB {
+      display: inline;
+      font-size: xx-small;
+    }
+
+    .content {
+      display: grid;
+    }
+
+    .info {
+      display: flex;
+    }
+
+    .infoHead {
+      display: table;
+    }
+
+    .center {
+      display: grid;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    #menu {
+      min-width: 40px;
+    }
+
+    .search {
+      width: 88%;
+    }
+
+    .heading {
+      font-size: small;
+    }
+
+    .logoBorder {
+      width: 45%;
+    }
+    .svg{
+      margin-left: 0px;
+    }
+  }
+}

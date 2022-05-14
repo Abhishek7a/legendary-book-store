@@ -1,0 +1,27 @@
+.mainPara {
+  color: red;
+  margin-top: 7em;
+  font-size: 25px;
+}
+.content {
+  padding: 4px;
+}
+.result {
+  color: red;
+  margin: 3em;
+}
+.imgBorder {
+  display: flex;
+  margin: 2em auto;
+  padding: 10px;
+  width: 30%;
+  border: 2px solid black;
+}
+.grid{
+  border: 3px solid black;
+  width: 60%;
+  margin: 100px auto ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
